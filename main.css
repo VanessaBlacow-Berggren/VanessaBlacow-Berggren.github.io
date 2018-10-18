@@ -27,8 +27,14 @@ a {
 
 a:visited {
   color: #8B008B;
-  text-decoration: none;	
+  text-decoration: none;
 }
+
+a:hover {
+  color: #8B008B;
+  text-decoration: none;
+}
+
 /* Centers Images */
 
 img {
