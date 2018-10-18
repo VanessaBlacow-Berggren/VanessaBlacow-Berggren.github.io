@@ -15,11 +15,20 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+Body {
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat-y;
+}
+
 a {
-  color: #FF530D;
+  color: #7D5295;
   text-decoration: none;
 }
 
+a:visited {
+  color: #8B008B;
+  text-decoration: none;	
+}
 /* Centers Images */
 
 img {
