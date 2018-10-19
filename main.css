@@ -21,17 +21,17 @@ Body {
 }
 
 a {
-  color: #7D5295;
+  color: #4B0082;
   text-decoration: none;
 }
 
 a:visited {
-  color: #8B008B;
+  color: #4B0082;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8B008B;
+  color: #C71585;
 }
 
 /* Centers Images */
@@ -47,4 +47,48 @@ img {
   margin-top: 60px;
   padding: 40px;
   background-color: #f7f7f7;
+}
+
+.box {
+  background-color: #8D749B;
+  width: 600px;
+  border: 5px solid black;
+  opacity: 0.6;
+  padding: 25px;
+  margin: 25px auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px auto;
+  padding: 0;
+  width: 600px;
+  overflow: auto;
+  background-color: #8D749B;
+  border: 5px solid black;
+  opacity: 0.6;
+  align-content: center;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  border-left: 2px solid black;
+  line-height: 0;
+}
+
+li:last-child {
+  border-right: 2px solid black;
+}
+
+li a{
+  display: block;
+  color: #4B0082;
+  text-align: center;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: none;
 }
