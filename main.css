@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+/*to taget a certain paragraph or piece of code use an ID which uses the #, then in the html code use id= #ID*/
 
 body {
   margin: 30px auto;
