@@ -18,7 +18,7 @@ h1 {
 
 Body {
   background-image: url("../images/background.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: repeat-y;
 }
 
