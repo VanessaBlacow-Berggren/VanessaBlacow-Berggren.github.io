@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<style>
+model-viewer {
+  width: 600px;
+  height: 300px;
+}
+</style>
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -17,52 +25,10 @@
       <!--<li><h4><a href="fanart.html">Fanart</a></h4></li>-->
     </ul>
     <div class="portfolio-item">
-      <img src="images/projects/photoshop1/img2.jpg" width="640">
-        <div class="box">
-          <h3>Mosaic Octopus, photoshop, 2018</h3>
-          <p>This image was one where I decided what to alter. I decided to alter this image by adding some effects.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/projects/glitch1/img5.jpg" width="640">
-        <div class="box">
-          <h3>Neon Ghost Jellyfish, online glitch website, 2018</h3>
-          <p>This image was glitched on a seperate website, I went through the effects and added what I thought looked cool.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/projects/glitch1/img6.jpg" width="640">
-        <div class="box">
-          <h3>Big Screen Pastel Kitten, online glitch website, 2018</h3>
-          <p>For this image I decided to go back to the glitching website to create my image. Once again I went throught the glitches provided and chose what I thought suited the image best.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
       <img src="images/projects/photoshop1/collab.jpg" width="640">
         <div class="box">
           <h3>Composite Cat, photoshop, 2018</h3>
-          <p>This image was a collaberative composite with other students. We eached contributed one image and then we had to turn them into one image.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/projects/glitch1/img1.jpg" width="640">
-        <div class="box">
-          <h3>City Glitch, photoshop, 2018</h3>
-          <p>This image was my own decision for a glitch. I imported a .raw file for the cool greyscale glitched look, then added colors to make it pop more.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/projects/composite/img4.jpg" width="640">
-        <div class="box">
-          <h3>Ocean Desert, photoshop, 2018</h3>
-          <p>This image was made by combining three images from google maps to create a surreal piece of seanery.</p>
-        </div>
-    </div>
-    <div class="portfolio-item">
-      <img src="../images/photography/bleppp.jpg" width="640">
-        <div class="box">
-          <h3>Powder Pink, 35mm Digital SLR Camera, 2018</h3>
-          <p>I liked the light pink color of this flower.</p>
+          <p>This image was a collaberative composite with other students. We eached contributed one image and then we had to turn them into one image. One of my groupmates picked the cartoon clouds, another picked the cityscape, and my contributuon was the cat.</p>
         </div>
     </div>
     <div class="portfolio-item">
@@ -80,19 +46,60 @@
           </div>
       </div>
       <div class="portfolio-item">
-        <img src="../images/photography/Cityscape_V_Blacow-Berggren.jpg" width="640">
+        <div class="box">
+          <h1><a href="https://vanessablacow-berggren.github.io/theLink/puzzleSet2.html" target="_blank">The Link - Puzzle Set 2</a></h1>
+          <h3>html, 2019</h3>
+          <p>For the final project of art 75 I took the critical interactivity to the next level, now there are no instructions or hints for the user to follow. The goal is for them to get inside my head and figure out what I was thinking about when creating the puzzle.</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <iframe src="https://player.vimeo.com/video/644094874?h=bc1fa124e0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Taking a Line for a Walk"></iframe>
+        <div class="box">
+          <h3>Taking a Line for a Walk, photoshop, premiere, 2019</h3>
+          <p>This is a little animation I made when given the prompt of taking a line for a walk. Each frame was drawn in Photoshop and then stitched together in Premiere.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <iframe src="https://player.vimeo.com/video/639263027?h=ddded784de&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Cat Animation Final"></iframe>
+        <div class="box">
+          <h3>Goals of a Cat, photoshop, premiere, 2019</h3>
+          <p>A small animated video of the goals and aspiritions of a cat, and what they look like in reality. All the assets were created in Photoshop and the animation done in Premiere.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="../images/Catplatformer/cat1.png" width="640">
+        <div class="box">
+          <h1><a href="https://kahluahchii.itch.io/a-basic-cat-platformer" target="_blank">A Basic Cat Platformer</a></h1>
+          <h3>A Basic Cat Platformer, Unity, Photoshop, 2019</h3>
+          <p>My final for Intro Game Studies where I made a simple platformer game. Art assets were created in Photoshop and were imported into the Unity game engine.</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="box">
+          <model-viewer alt="Kirby" src="../assets/Kirby.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls width="640" height="360" frameborder="0"></model-viewer>
+          <h3>Kirby Amiibo Model, Blender, 2021</h3>
+          <p>Recreated my Kirby Amiibo in Blender using both simple shapes and sculpting. </p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="box">
+          <model-viewer alt="Switch" src="../assets/Cright.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls width="640" height="360" frameborder="0"></model-viewer>
+          <model-viewer alt="Switch" src="../assets/Cleft.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls width="640" height="360" frameborder="0"></model-viewer>
+          <model-viewer alt="Switch" src="../assets/switchbody.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls width="640" height="360" frameborder="0"></model-viewer>
+          <model-viewer alt="Switch" src="../assets/switch.glb" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls width="640" height="360" frameborder="0"></model-viewer>
+          <h3>Nintendo Switch, Blender, 2021</h3>
+          <p>Recreated my Switch in Blender to go with the Kirby Amiibo. The controllers and the body of the switch were all created seperatly so that it is just as versitile in the virtual realm as the actual device is in reality. The completed switch at the bottom has the controller colors that I personally use on my set up. </p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/myart/Kirsikka.png" width="640">
           <div class="box">
-            <h3>Campus Cityscape, SJSU, California, 35mm Digital SLR Camera, 2018</h3>
-            <p>The house looked nice</p>
+            <h3>Kir'sikka Firahel D&D Character Portrait, photoshop, 2021</h3>
+            <p>A full body digital painting of one of my D&D characters in photoshop. I always have a clear picture for my characters and since everything has gone online, the website my group uses for playing lets other players view your character bio, so I created this to add to my bio so my friends could visually see how I envisioned my chracter. </p>
           </div>
       </div>
-    </div>
-    <div class="portfolio-item">
-      <iframe src="https://player.vimeo.com/video/334219992" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-      <div class="box">
-      <h3>A Relaxing Afternoon Outdoors - Indoors, phone video, photoshop, premiere, 2019</h3>
-      <p>Example of a video installation where people can relax and talk to each other in an outdoor setting, watching the clouds and the day pass by. It would show a full day/night cycle sped up to pass within a few hours.</p>
-    </div>
+
     </div>
     <ul>
     <li><h4><a href="index.html">Home</a></h4><li>
